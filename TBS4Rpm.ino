@@ -54,7 +54,7 @@ TbsShieldRpm tbs(nuberOfCylinders);		// number of channels we have attached sens
 // <count of channels in report> 1
 // <channel report> 2,50,1005,912,805
 //     <channel id> 2
-//     <sample width>> 50
+//     <sample width> 50
 //     <min value> 1005
 //     <value> 912
 //     <max value> 805
