@@ -2,7 +2,7 @@
 #include <TbsShieldRpm.h>
 
 // Define number of cylinders to work with
-#define nuberOfCylinders 2
+const uint8_t numberOfCylinders = 2;
 
 enum SamplingState
 {
