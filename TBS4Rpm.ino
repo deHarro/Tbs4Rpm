@@ -42,7 +42,8 @@ bool idleBeat = true;
 uint8_t lastChannelReady = 0;
 SamplingState samplingState = SS_Idle;
 
-TbsShieldRpm tbs(4); // four channels
+// TbsShieldRpm tbs(4); // four channels
+TbsShieldRpm tbs(2); // four channels    // quick&dirty hack for 2 cyclinders
 
 // report format: 
 // kPa-100;1;2,50,1005,912,805;678
